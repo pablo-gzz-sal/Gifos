@@ -1,0 +1,28 @@
+.autoList {
+  list-style-type: none;
+}
+.wholeList {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: column;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #da498c;
+  padding-left: 25px;
+  color: black;
+}
+
+.wholeList.dark {
+  background-color: #353535;
+  color: white;
+}
+
+.suggestions {
+  width: 570px;
+  border: 1px solid #da498c;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 2em 2em 2em 2em;
+  z-index: 1;
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerImg {
+  width: 75px;
+  right: 30%;
+  margin-top: 30px;
+}
+
+.buttonDark {
+  padding-top: 15px;
+}

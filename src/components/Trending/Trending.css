@@ -1,0 +1,14 @@
+.gifsLayout {
+  background-color: #dedbdc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  height: 100%;
+  position: relative;
+  margin-left: 250px;
+}
+
+.gifsLayout.dark {
+  background-color: #353535;
+}
